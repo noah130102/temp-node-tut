@@ -17,4 +17,45 @@ const server = http.createServer((req, res) => {
   }
 });
 
+
 server.listen(5000);
+const http = require("http");
+var dat = 1; 
+
+// const server = http.createServer((req, res) => {
+  
+//   console.log(`request envent : ${dat}`);
+//   dat = dat +1;
+//   res.end("hello karan");
+// });
+
+// server.listen(5000, () => {
+//   console.log("Server is listening to port : 5000");
+// });
+
+
+/////////////////////////////////////////////////////////////
+
+// const http = require('http');
+
+// const server = http.createServer((req,res)=>{
+//     if(req.url==='/'){
+//         res.end('Home');
+//     }
+//     else if(req.url==='/about'){
+//         res.end('About');
+//     }else{
+//         res.writeHead(404, { "Content-Type": "text/html" });
+//         res.end('Error');
+//     }
+    
+// });
+
+// server.listen(5000,()=>{
+//     console.log('server is listening to 5000');
+// });
+
+
+//////////////////////////////////////////////////
+
+
